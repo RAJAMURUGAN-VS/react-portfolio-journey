@@ -1,0 +1,21 @@
+.card-container {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #f50538;
+    margin: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: #79021c;
+}
+
+.card-image {
+    height: 70%;
+    width: 100%;
+}

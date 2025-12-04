@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #000000;
+  width: 100vw;
+  background-size: cover;
+}
+
+.nav-conatiner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #3d010e;
+}
+
+.main-heading {
+  font-size: 40px;
+  font-family: "Roboto";
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}

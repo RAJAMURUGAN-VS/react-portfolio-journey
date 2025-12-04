@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Reusable Banners",
+        "url": "https://rajamurugan1.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1764872927/Screenshot_2025-12-04_235833_uzeqzs.png"  
+    },
+    {
+        "id": 2,
+        "title": "Technology Cards",
+        "url": "https://rajamurugan2.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1764874231/Screenshot_2025-12-05_000355_jkyiyc.png"  
+    },
+    {
+        "id": 3,
+        "title": "Click Counter",
+        "url": "https://rajamurugan3.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1764874302/Screenshot_2025-12-05_000552_kusbma.png"  
+
+    },
+    {
+        "id": 4,
+        "title": "Speedometer",
+        "url": "https://rajamurugan4.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1764874354/Screenshot_2025-12-05_000644_idnqnm.png"  
+    },
+    {
+        "id": 5,
+        "title": "Fruits Counter",
+        "url": "https://rajamurugan5.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1764874393/Screenshot_2025-12-05_000722_zi1x09.png"  
+    }
+]
