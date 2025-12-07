@@ -47,5 +47,17 @@
         "title": "Show/Hide App",
         "url": "https://rajamurugan8.ccbp.tech",
         "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1765040211/Screenshot_2025-12-06_222554_lhdvi9.png"  
+    },
+    {
+        "id": 9,
+        "title": "Even Odd App",
+        "url": "https://rajamurugan9.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1765088816/Screenshot_2025-12-07_115603_ivlqlj.png"  
+    },
+    {
+        "id": 10,
+        "title": "Login App",
+        "url": "https://rajamurugan10.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1765124851/Screenshot_2025-12-07_215513_jsjbpq.png"  
     }
 ]
