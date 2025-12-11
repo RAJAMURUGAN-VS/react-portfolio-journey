@@ -8,7 +8,7 @@
   background-size: cover;
 }
 
-.nav-conatiner {
+.nav-container {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -26,4 +26,36 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 40px;
+}
+
+.search-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;  
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 5px;
+  width: 400px;
+}
+
+.search {
+  background-color: white;
+  padding: 10px;
+  width: 350px;
+  color: #3d010e;
+  border-style: none;
+  outline: none;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }

@@ -3,6 +3,7 @@ import './ProjectCard.css'
 const ProjectCard = (props) => {
     const {cardDetails}=props
     const {title,url,image}=cardDetails
+    
     return (
         <a href={url}>
             <div className='card-container'>
