@@ -32,9 +32,13 @@ class App extends Component {
         </div>
         <div className="cards-container">
           {
-            searchResults.map((each) => (
-              <ProjectCard key={each.id} cardDetails={each} />
-            ))
+            searchResults.length!==0 ? (
+              searchResults.map((each) => (
+                <ProjectCard key={each.id} cardDetails={each} />
+              ))
+            ) : (
+              <p>No projects found.</p>
+            )
           }
         </div>
       </div>
