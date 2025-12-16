@@ -143,5 +143,11 @@
         "title": "Appointments App",
         "url": "https://rajamurugan24.ccbp.tech",
         "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1765813885/Screenshot_2025-12-15_211921_xpdvp9.png"  
+    },
+    {
+        "id": 25,
+        "title": "Money Manager",
+        "url": "https://rajamurugan25.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1765905717/Screenshot_2025-12-16_225141_sx6cwn.png"  
     }
 ]
