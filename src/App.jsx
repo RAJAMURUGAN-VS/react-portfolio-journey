@@ -1,6 +1,7 @@
 import './App.css'
 import {Component} from 'react'
 import ProjectCard from './Components/ProjectCard/ProjectCard'
+import HeroCarouselItem from './Components/HeroCarouselItem/HeroCarouselItem'
 import projects from './data/projects.json'
 
 class App extends Component {
@@ -14,12 +15,22 @@ class App extends Component {
     const searchResults=projects.filter((each) => (
       each.title.toLowerCase().includes(searchKey.toLowerCase())
     ))
+
     return (
       <div className="bg-container">
         <div className="nav-container">
+          <h1 className="name">RAJAMURUGAN VS</h1>
           <h1 className="main-heading">REACT PORTFOLIO JOURNEY</h1>
         </div>
-        <div className="search-box-container">
+        <div className="hero-section">
+          <div className="hero-description-container">
+            <h1 className="hero-title">React Studio</h1>
+            <p>A growing portfolio of React projects showcasing my journey from beginner to professional development.</p>
+          </div>
+          <HeroCarouselItem />
+        </div>
+        <div className="search-container">
+          <h1 className="search-title">Projects</h1>
           <div className="search-box">
             <input 
               type="search"

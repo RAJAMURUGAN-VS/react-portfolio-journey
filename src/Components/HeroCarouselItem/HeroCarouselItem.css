@@ -1,0 +1,48 @@
+.hero-carousel-container {
+  align-self: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.arrow-button {
+  height: auto;
+  width: 50px;
+  background-color: transparent;
+}
+
+.hero-carousel {
+  height: 400px;
+  width: 100%;
+  border-style: solid;
+  border-width: 30px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.navigation-button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+.carousel-item-image {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+@media(max-width: 1000px) {
+  .hero-carousel-container {
+    order: -1;
+    padding: 20px;
+    height: 120px;
+    margin-bottom: 50px;
+  }
+  .hero-carousel {
+    border-width: 10px;
+    height: 200px;
+    width: 100%;
+  }
+}

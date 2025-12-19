@@ -1,21 +1,34 @@
 .card-container {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 10px;
-    border-color: #f50538;
-    margin: 10px;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #7e57c2;
+  margin: 10px;
 }
 
 .card-title {
-    font-size: 18px;
-    text-align: center;
-    color: #79021c;
+  font-size: 18px;
+  text-align: center;
+  color: #5e35b1;
 }
 
 .card-image {
-    height: 75%;
-    width: 100%;
+  height: 75%;
+  width: 100%;
+}
+
+@media(max-width: 1000px) {
+  .card-container {
+    width: 150px;
+    height: 150px;
+  }
+  .card-image {
+    height: 70%;
+  }
+  .card-title {
+    font-size: 15px;
+  }
 }
