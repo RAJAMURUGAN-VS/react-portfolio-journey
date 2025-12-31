@@ -33,12 +33,13 @@
   width: 100%;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 576px) {
   .hero-carousel-container {
     order: -1;
     padding: 20px;
     height: 120px;
     margin-bottom: 50px;
+    margin-top: 50px;
   }
   .hero-carousel {
     border-width: 10px;
