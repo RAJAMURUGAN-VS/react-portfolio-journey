@@ -245,5 +245,11 @@
         "title": "Hamburger Menu",
         "url": "https://rajamurugan41.ccbp.tech",
         "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1768309561/Screenshot_2026-01-13_183504_qd3lhx.png"
+    },
+    {
+        "id": 42,
+        "title": "Prime Video",
+        "url": "https://rajamurugan42.ccbp.tech",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1768369914/Screenshot_2026-01-14_111745_n6whiq.png"
     }
 ]
