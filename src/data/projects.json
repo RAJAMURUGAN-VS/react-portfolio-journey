@@ -251,5 +251,11 @@
         "title": "Prime Video",
         "url": "https://rajamurugan42.ccbp.tech",
         "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1768369914/Screenshot_2026-01-14_111745_n6whiq.png"
+    },
+    {
+        "id": 43,
+        "title": "Jobby App",
+        "url": "https://rajamurugan-vs.github.io/jobby-app/",
+        "image": "https://res.cloudinary.com/dydplsxdj/image/upload/v1768745911/Screenshot_2026-01-18_194732_e7zswd.png"
     }
 ]
