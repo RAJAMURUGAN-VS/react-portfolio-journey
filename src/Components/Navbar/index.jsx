@@ -20,16 +20,19 @@ const Navbar = () => {
         <NavLink to="/certificates" className="nav-item">Certificates</NavLink>
         <NavLink to="/contact" className="nav-item">Contact</NavLink>
       </nav>
-      <div className="nav-actions">
-        <a
+      <a
           href="https://linktr.ee/rajamuruganvs"
           target="_blank"
           rel="noopener noreferrer"
           className="linktree-btn"
         >
-          Linktree
+          <p>Linktree</p>
+          <img
+            src="https://res.cloudinary.com/dydplsxdj/image/upload/v1771077848/linktree_zgab5x.png"
+            alt="linktree"
+            className='linktree-img'
+          />
         </a>
-      </div>
     </header>
   )
 }
