@@ -11,9 +11,9 @@ const Home = () => {
         <PixelTransition
           firstContent={
             <img
-              src="https://res.cloudinary.com/dydplsxdj/image/upload/v1769700085/MY_LOGO_gros2t.png"
-              alt="default pixel transition content, a cat!"
-              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              src="https://res.cloudinary.com/dydplsxdj/image/upload/v1771254526/WhatsApp_Image_2026-02-16_at_8.38.18_PM_cl72um.jpg"
+              alt="home-image"
+              style={{ width: "95%", height: "100%", objectFit: "cover" }}
             />
           }
           secondContent={
