@@ -1,0 +1,22 @@
+.light-rays-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.light-rays-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.light-rays-content {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+  padding: 2rem 2rem 0;
+}
