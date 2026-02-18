@@ -1,0 +1,113 @@
+.link-element {
+  text-decoration: none;
+}
+
+.certificate-container {
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(to top right,#121212,#1e1e1e,#5e35b1,#7e57c2);
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  width: 48%;
+}
+
+.certificate-title-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.certificate-image {
+  height: 150px;
+  width: 200px;
+}
+
+.certificate-title {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.star-container {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.issuer {
+  color: white;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.year {
+  color: #f1f5f9;
+  font-size: 12px;
+}
+
+.certificate-details-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.certificate-item-details {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.certificate-details-element {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.skills-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.credentials {
+  color: #f8fafc;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skills-heading {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+.skills-list {
+  margin: 0px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.skills-element {
+  color: rgb(237, 236, 244);
+  text-align: left;
+  font-size: 12px;
+}
+
+@media(max-width: 576px) {
+  .certificate-container {
+    width: 100%;
+  }
+  .certificate-title {
+    font-size: 14px;
+  }
+}
