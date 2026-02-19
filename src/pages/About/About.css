@@ -6,6 +6,7 @@
 .about-heading {
   text-align: center;
   color: aliceblue;
+  margin-top: 0px;
 }
 
 .about-content-container {
@@ -14,5 +15,14 @@
 
 .about-content {
   font-family: 'JetBrains Mono', monospace;
-  color: #d9cfeb;
+  color: #c6b1ec;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 576px) {
+  .about-container {
+    padding: 0px;
+    padding-bottom: 40px;
+    text-align: left;
+  }
 }

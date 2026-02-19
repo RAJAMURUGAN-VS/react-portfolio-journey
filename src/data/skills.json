@@ -1,0 +1,62 @@
+{
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "SQL",
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "React.js",
+        "Responsive Design",
+        "Bootstrap"
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST API Development",
+        "SpringBoot"
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        "MySQL",
+        "SQLite",
+        "Supabase",
+        "Firebase"
+      ]
+    },
+    {
+      "category": "Tools & Technologies",
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "Chrome DevTools"
+      ]
+    },
+    {
+      "category": "Computer Science Fundamentals",
+      "items": [
+        "Data Structures & Algorithms",
+        "Problem Solving",
+        "Recursion",
+        "Dynamic Programming"
+      ]
+    }
+  ]
+}

@@ -20,3 +20,9 @@
   pointer-events: auto;
   padding: 2rem 2rem 0;
 }
+
+@media(max-width: 576px) {
+  .light-rays-content {
+    padding: 24px;
+  }
+}

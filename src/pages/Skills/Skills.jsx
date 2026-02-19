@@ -1,5 +1,6 @@
 import DotGrid from "../../Components/DotGrid"
 import './Skills.css'
+import data from '../../data/skills.json'
 
 const Skills = () => {
   return (
@@ -18,7 +19,7 @@ const Skills = () => {
           style={{ width: '100%', height: '100%' }} 
         />
       </div>
-      <div style={{ position: 'relative', zIndex: 1, padding: '2rem', paddingTop: '10px'}}>
+      <div style={{ position: 'relative', zIndex: 1, padding: '2rem', paddingTop: '40px'}}>
         <h1 className="skills-heading">My Skills</h1>
         {/* <div className="skills-icon-container">
           <img src="https://res.cloudinary.com/dydplsxdj/image/upload/v1771249806/java_uwpl7d.png" alt="java-icon" className="skills-icon" />
@@ -29,64 +30,15 @@ const Skills = () => {
           <img src="https://res.cloudinary.com/dydplsxdj/image/upload/v1771250576/nodejs_cyraju.png" alt="java-icon" className="skills-icon" />
         </div> */}
         <div className="skills-container">
-          <div class="skills-category">
-            <h2>Programming Languages</h2>
-            <ul>
-              <li>JavaScript</li>
-              <li>Python</li>
-              <li>Java</li>
-              <li>SQL</li>
-              <li>C</li>
-              <li>C++</li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h2>Frontend Development</h2>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>React.js</li>
-              <li>Responsive Design</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h2>Backend Development</h2>
-            <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>REST API Development</li>
-              <li>SpringBoot</li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h2>Database</h2>
-            <ul>
-              <li>MySQL</li>
-              <li>SQLite</li>
-              <li>Supabase</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h2>Tools & Technologies</h2>
-            <ul>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>VS Code</li>
-              <li>Postman</li>
-              <li>Chrome DevTools</li>
-            </ul>
-          </div>
-          <div class="skills-category">
-            <h2>Computer Science Fundamentals</h2>
-            <ul>
-              <li>Data Structures & Algorithms</li>
-              <li>Problem Solving</li>
-              <li>Recursion</li>
-              <li>Dynamic Programming</li>
-            </ul>
-          </div>
+          {data.skills.map(each => (
+            <div class="skills-category">
+              <h2 className="skills-category-heading">{each.category}</h2>
+              <ul className="skills-list">{each.items.map(each => (
+                <li>{each}</li>
+              ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </div>
