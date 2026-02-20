@@ -74,4 +74,13 @@
   .main-heading {
     margin: 0px;
   }
+  .logo-container {
+    order: -2;
+  }
+  .linktree-btn {
+    order: -1;
+  }
+  .nav-links {
+    gap: 10px;
+  }
 }
