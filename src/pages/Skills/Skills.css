@@ -1,6 +1,8 @@
-.skills-heading {
+.skills-header {
   color: aliceblue;
-  margin-top: 0px;
+  font-size: 42px;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 .skills-container {
@@ -40,5 +42,8 @@
   .skills-category-heading {
     font-size: 16px;
     height: 40px;
+  }
+  .skills-header {
+    font-size: 30px;
   }
 }

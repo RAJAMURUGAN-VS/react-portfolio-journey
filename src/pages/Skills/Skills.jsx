@@ -19,8 +19,8 @@ const Skills = () => {
           style={{ width: '100%', height: '100%' }} 
         />
       </div>
-      <div style={{ position: 'relative', zIndex: 1, padding: '2rem', paddingTop: '40px'}}>
-        <h1 className="skills-heading">My Skills</h1>
+      <div style={{ position: 'relative', zIndex: 1, padding: '2rem', paddingTop: '20px'}}>
+        <h1 className="skills-header">My Skills</h1>
         {/* <div className="skills-icon-container">
           <img src="https://res.cloudinary.com/dydplsxdj/image/upload/v1771249806/java_uwpl7d.png" alt="java-icon" className="skills-icon" />
           <img src="https://res.cloudinary.com/dydplsxdj/image/upload/v1771250206/python_opf3bm.png" alt="java-icon" className="skills-icon" />
